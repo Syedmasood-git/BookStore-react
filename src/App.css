@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Varela&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* background: #242121; */
+}
+body{
+  background: #242121;
+}
+.navbar {
+  width: 100vw;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  padding-inline: 30px;
+  justify-content: space-between;
+  background: #292828;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo > svg {
+  width: 80px;
+  margin-right: 10px;
+}
+.logo-name {
+  font-family: "Varela";
+  color: #fff;
+  font-size: 35px;
+  font-weight: 400;
+}
+.small-books {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 100;
+}
+.search-bar {
+  width: 40vw;
+  border: none;
+  color: #808080;
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: 300;
+  border-radius: 4px;
+  background: #373737;
+  /* height: 35px; */
+  margin-right: 10px;
+  padding: 10px 10px;
+}
+.search-bar:focus {
+  outline: none;
+}
+.nav-btn {
+  background: #292828;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 5px 10px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 17px;
+  font-weight: 300;
+}
+.right-nav {
+  display: flex;
+  align-items: center;
+}
+.right-nav img {
+  margin-right: 10px;
+}
+.book-cards {
+  background: #242121;
+  padding: 20px;
+  display: flex;
+  gap: 40px;
+  min-width: 400px;
+}
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100vw;
+  background-color: #242121;
+}
+.desc-div{
+  height: 100px;
+  overflow: hidden;
+}
+.book-card {
+  display: flex;
+  border-radius: 5px;
+  width: 28vw;
+  height: 30vh;
+  margin-top: 10px;
+}
+.book-img img {
+    height: 80%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transform: rotate(-5deg);
+}
+.card-details {
+  height: 200px;
+  width: 90vw;
+  padding: 20px;
+  background-color: rgba(113, 197, 244, 0.38);
+  box-shadow: 0px 6px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.h2{
+  color: #FFF;
+font-size: 20px;
+height: 50px;
+overflow: hidden;
+}
+.desc{
+    color: #D2D2D2;
+font-family: Roboto;
+font-size: 12px;
+font-weight: 400;
+}
+.card-details h2{
+    color: #FFF;
+font-size: 35px;
+font-weight: 700;
+padding-bottom: 5px;
+}
+.card-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top:5px;
+}
+.more-cards{
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  /* background: #242121; */
+}
+.more-card{
+  width: 200px;
+  height: 300px;
+}
+.more-card img{
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+}
+.hello{
+  display: flex;
+  gap: 50px;
+  justify-content:space-around ;
+  flex-wrap: wrap;
+}
